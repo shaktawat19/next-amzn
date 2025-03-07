@@ -3,8 +3,12 @@ export const APP_SLOGAN = process.env.NEXT_PUBLIC_APP_SLOGAN || 'Never give up'
 export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
   'Next.js + Tailwind CSS + TypeScript + Shadcn UI'
+
 export const MONGODB_URI = process.env.MONGODB_URI
 
 export const USER_ROLES = ['Admin', 'User']
 export const COLORS = ['Gold', 'Green', 'Red']
 export const THEMES = ['Light', 'Dark', 'System']
+
+export const SENDER_NAME = process.env.SENDER_NAME || 'support'
+export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'onboarding@resend.dev'
